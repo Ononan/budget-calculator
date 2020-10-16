@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+li{
+	list-style-type: none;
+}
+
+body{
+    background-color:#dfd8d8;
+}
+
+.container{
+    border-radius: 15px;
+    border: 3px solid #028a4e;
+    background-color: #04a863;
+    margin: 0 auto;
+    min-height: 99vh;;
+    max-width: 700px;
+    color: white;
+}
+
+header {
+    color: #b2c7e6;
+    padding-bottom: 20px; 
+    width: 100%;
+}
+
+.block-month-balance{
+    padding-top: 30px;
+    display: flex;
+    font-size: 8vh;
+    justify-content: center; 
+}
+.block-month-data{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.block-month-data div{
+    width: 200px;
+    font-size: 24px;
+
+}
+.block-month-data span{
+    display: block;
+    text-align: center;
+}
+.block-month-data button{
+    background-color: #b2c7e6;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    align-self: center;
+    cursor: pointer;
+    border: 2px solid #b2c7e6;
+}
+
+.block-month-data button:hover{
+    background-color: rgb(216, 194, 194);
+    border: 2px solid rgb(216, 194, 194);
+}
+
+.input{
+   color: #bde5e7;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-value input{
+    color: #0e2884;
+    background-color: #bde5e7;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: right;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input button {
+    border: none;
+    background-color: #bde5e7;
+    border-radius: 14px;
+    font-weight: bolt;
+    font-size: 40px;
+    padding: 4px 40px;
+    cursor: pointer;
+}
+
+.input button:hover{
+    background-color: white;
+}
+.list-value ul{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px; 
+}
+
+.list-value li{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-top:15px;
+}
+
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button_delete{
+    align-self: top;
+    background: none;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 8px;
+    margin-left:3px;
+    color: rgb(245, 27, 27);
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
